@@ -34,3 +34,12 @@ campoEmail.addEventListener('blur', function() {
     campoEmail.style.borderColor = 'red'; // Estilo inválido
   }
 });
+
+document.querySelector('.scroll-to-top a').addEventListener('click', function (event) {
+  event.preventDefault();
+  const target = document.querySelector(this.getAttribute('href'));
+  window.scrollTo({
+    top: target.offsetTop,
+    behavior: 'smooth'
+  });
+});
