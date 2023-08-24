@@ -8,7 +8,9 @@
   <script src="script.js"></script>
 </head>
 <body>
-
+  <div class="scroll-to-top">
+    <a href="#top">↑</a>
+  </div>
   <!-- Cabeçalho -->
   <header>
     <div class="container">
@@ -22,11 +24,18 @@
       </nav>
     </div>
   </header>
-
+  <div class="social-icons">
+    <a href="https://github.com/marlonricardo" target="_blank">
+      <img src="icone-github.png" alt="Github">
+    </a>
+    <a href="https://www.linkedin.com/in/marlonricardo-oliveira/" target="_blank">
+      <img src="icone-linkedin.png" alt="LinkedIn">
+    </a>
+  </div>
   <!-- Seção Sobre mim -->
   <section id="sobre-mim">
     <div class="container">
-      <h2>Sobre mim</h2><br><br>
+      <h2>Sobre mim</h2><br /><br />
       <div class="container-img">
         <div class="image-wrapper">
           <img src="foto-perfil.jpeg" alt="Foto de Perfil">
@@ -47,22 +56,22 @@
   <!-- Seção Formação -->
   <section id="formacao">
     <div class="container">
-      <h2>Formação</h2><br><br>
+      <h2>Formação</h2><br /><br />
       <ul>
         <li>
-          <strong>Graduação</strong>
+          <span class="bold-text">Graduação</span>
           <p>
-            Análise e Desenvolvimento de Sistemas | <b>UNINTER</b><br>
+            Análise e Desenvolvimento de Sistemas | <span class="bold-text">UNINTER</span><br />
             Término: Outubro/2024
           </p>
           <p>
-            Gestão de TI | <b>UNIP</b><br>
+            Gestão de TI | <span class="bold-text">UNIP</span><br /><br />
             Término: Setembro/2023
           </p>
         </li>
-        <br><br>
+        <br /><br />
         <li>
-          <strong>Cursos extracurriculares</strong>
+          <span class="bold-text">Cursos extracurriculares</span>
           <ul class="lista-cursosExtracurriculares">
             <li>Java Insider - Softblue</li>
             <li>Project Management - Google</li>
@@ -78,12 +87,13 @@
   <!-- Seção Portfólio -->
   <section id="portfolio">
     <div class="container">
-      <h2>Portfólio</h2><br><br>
+      <h2>Portfólio</h2><br /><br />
       <ul>
         <li>
           <a href="https://github.com/marlonricardo/cofrinho-java">Cofrinho de Moedas</a>
           <p>O trabalho consiste em implementar um pequeno sistema que emula um "Cofrinho
-de moedas" em Java.</p>
+              de moedas" em Java.
+          </p>
         </li>
       </ul>
     </div>
@@ -92,7 +102,7 @@ de moedas" em Java.</p>
   <!-- Seção Contato -->
   <section id="contato">
     <div class="container">
-      <h2>Contato</h2><br><br>
+      <h2>Contato</h2><br /><br />
       <form action="" method="post">
         <input type="text" name="nome" placeholder="Nome" required>
         <input type="email" name="email" id="email" placeholder="E-mail" required>
