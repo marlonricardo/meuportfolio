@@ -46,9 +46,19 @@ section {
   background-color: #F6F1F1;
 }
 
+/* Estilização de todos os títulos h2 */
 h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  position: relative;
+}
+
+h2::after {
+  content: ''; /* Criação do elemento de linha */
+  position: absolute;
+  bottom: -5px; /* Distância da linha abaixo do título */
+  left: 0;
+  width: 50px; /* Largura da linha */
+  height: 2px; /* Altura da linha */
+  background-color: #ff9900; /* Cor da linha */
 }
 
 .container-img {
