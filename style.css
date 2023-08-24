@@ -58,7 +58,7 @@ h2::after {
   left: 0;
   width: 50px; /* Largura da linha */
   height: 2px; /* Altura da linha */
-  background-color: #ff9900; /* Cor da linha */
+  background-color: #5C8374; /* Cor da linha */
 }
 
 .container-img {
@@ -76,15 +76,6 @@ h2::after {
   max-width: 100%;
   height: auto;
 }
-O código CSS acima irá centralizar tanto a imagem quanto o parágrafo dentro da div container-img. A classe image-wrapper é opcional e pode ser usada para adicionar uma margem entre a imagem e o texto, caso deseje. Lembre-se de ajustar o valor da margem de acordo com suas preferências.
-
-Certifique-se de que o caminho da imagem na tag <img> está correto e que a classe container-img está sendo aplicada corretamente em seu estilo.
-
-
-
-
-
-
 
 /* Estilização das listas */
 ul {
