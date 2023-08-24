@@ -1,0 +1,191 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #183D3D; /* Cor de fundo do cabeçalho */
+  color: #040D12; /* Cor do texto no cabeçalho */
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #93B1A6; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos das seções */
+section {
+  padding: 40px 0;
+  background-color: #F6F1F1;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  align-items: center; /* Centraliza os elementos verticalmente */
+  text-align: left; /* Centraliza o texto dentro do parágrafo */
+}
+
+.image-wrapper {
+  margin-right: 20px; /* Margem opcional entre a imagem e o texto */
+}
+
+.container-img img {
+  max-width: 100%;
+  height: auto;
+}
+O código CSS acima irá centralizar tanto a imagem quanto o parágrafo dentro da div container-img. A classe image-wrapper é opcional e pode ser usada para adicionar uma margem entre a imagem e o texto, caso deseje. Lembre-se de ajustar o valor da margem de acordo com suas preferências.
+
+Certifique-se de que o caminho da imagem na tag <img> está correto e que a classe container-img está sendo aplicada corretamente em seu estilo.
+
+
+
+
+
+
+
+/* Estilização das listas */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Estilização das listas dentro da seção Formação */
+#formacao ul li {
+  margin: 0;
+}
+
+#formacao ul li ul {
+  margin-top: 5px;
+}
+
+/* Estilização das listas dentro da seção Portfólio */
+#portfolio ul {
+  padding-left: 20px;
+}
+
+#portfolio li {
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 2px solid #183D3D; /* Adicione uma linha vertical à esquerda */
+}
+
+#portfolio li a {
+  color: #333; /* Cor do link no portfólio */
+  font-weight: bold;
+}
+
+#portfolio li a:hover {
+  color: #93B1A6;
+}
+
+#portfolio li p {
+  margin: 10px 0;
+}
+
+/* Estilização das listas dentro da seção Portfólio */
+#formacao ul {
+  padding-left: 20px;
+}
+
+#formacao li {
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 2px solid #183D3D; /* Adicione uma linha vertical à esquerda */
+}
+
+#formacao li a {
+  color: #040D12; /* Cor do link no portfólio */
+  font-weight: bold;
+}
+
+#formacao li a:hover {
+  color: #93B1A6;
+}
+
+#formacao li p {
+  margin: 10px 0;
+}
+
+ul li ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#formacao .lista-cursosExtracurriculares li{
+  border-left: none;
+  list-style: square;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #183D3D;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Estilos do formulário de contato */
+form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #183D3D ;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #93B1A6 ;
+  color: #183D3D ;
+}
