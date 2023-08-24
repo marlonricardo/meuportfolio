@@ -5,14 +5,35 @@ body, h1, h2, h3, p, ul, li, a {
   list-style: none;
   text-decoration: none;
 }
-
+.bold-text {
+  font-weight: bold;
+}
 /* Estilos do cabeçalho */
 header {
   background-color: #183D3D; /* Cor de fundo do cabeçalho */
   color: #040D12; /* Cor do texto no cabeçalho */
   padding: 10px 0;
 }
+.social-icons {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
 
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: auto;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -189,4 +210,15 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #93B1A6 ;
   color: #183D3D ;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #93B1A6;
+  color: #183D3D ;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 50px;
 }
