@@ -1,14 +1,10 @@
-/*Adicionado um evento que exibe uma mensagem quando o botão de envio é clicad*/
+/*Adicionado um evento que exibe uma mensagem quando o botão de envio é clicado*/
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector("form");
     const statusMessage = document.getElementById("status-message");
 
     form.addEventListener("submit", function (event) {
         event.preventDefault();
-        
-        // Simular o envio do formulário (pode ser substituído por uma chamada AJAX)
-        // Aqui você pode adicionar a lógica para enviar os dados do formulário para um servidor
-
         // Exibir a mensagem de envio bem-sucedido
         statusMessage.textContent = "Mensagem enviada com sucesso!";
     });
@@ -33,13 +29,4 @@ campoEmail.addEventListener('blur', function() {
   } else {
     campoEmail.style.borderColor = 'red'; // Estilo inválido
   }
-});
-
-document.querySelector('.scroll-to-top a').addEventListener('click', function (event) {
-  event.preventDefault();
-  const target = document.querySelector(this.getAttribute('href'));
-  window.scrollTo({
-    top: target.offsetTop,
-    behavior: 'smooth'
-  });
 });
