@@ -6,40 +6,17 @@ body, h1, h2, h3, p, ul, li, a {
   text-decoration: none;
 }
 
-.bold-text {
-  font-weight: bold;
-}
 /* Estilos do cabeçalho */
 header {
   background-color: #183D3D; /* Cor de fundo do cabeçalho */
   color: #040D12; /* Cor do texto no cabeçalho */
-  padding: 10px 0;
-}
-.social-icons {
-  position: absolute;
-  top: 50px;
-  right: 10px;
-  display: flex;
-  align-items: center;
+  padding: 10px;
 }
 
-.social-icons a {
-  margin-right: 10px;
-  margin-top: 10px;
-}
-
-.social-icons a:last-child {
-  margin-right: 80px;
-  margin-top: 10px;
-}
-
-.social-icons a img {
-  width: 30px;
-  height: auto;
-}
-
-.social-icons a img:hover {
-  transform: scale(1.1);
+/* Estilos para a logo */
+.logo img {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  
 }
 .container {
   max-width: 1200px;
@@ -86,7 +63,7 @@ h2::after {
   left: 0;
   width: 50px; /* Largura da linha */
   height: 2px; /* Altura da linha */
-  background-color: #5C8374; /* Cor da linha */
+  background-color: #ff9900; /* Cor da linha */
 }
 
 .container-img {
@@ -103,6 +80,33 @@ h2::after {
 .container-img img {
   max-width: 100%;
   height: auto;
+}
+
+/* Estilização do menu */
+nav ul {
+  display: flex;
+  justify-content: flex-end; /* Alinha os ícones à direita */
+  align-items: center;
+  
+  
+}
+
+/* Estilização das imagens no menu */
+nav ul li a img {
+  width: 30px; /* Largura da imagem */
+  height: auto; /* Altura da imagem ajustada automaticamente */
+  margin-top: 10px; /* Espaçamento entre a imagem e o texto */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+
+}
+
+/* Estilização dos icones ao passar o mouse */
+nav ul li a:hover img {
+  filter: brightness(0.7); /* Reduz o brilho da imagem ao passar o mouse */
+  transform: scale(1.2); /* Aumenta o tamanho da imagem em 20% */
+}
+.icones{
+  background-color: #F6F1F1;
 }
 
 /* Estilização das listas */
@@ -215,6 +219,6 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #93B1A6;
+  background-color: #93B1A6 ;
   color: #183D3D ;
 }
