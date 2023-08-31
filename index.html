@@ -8,12 +8,12 @@
   <script src="script.js"></script>
 </head>
 <body>
-  
+
   <!-- Cabeçalho -->
   <header>
     <div class="container">
       <nav>
-        <ul>
+        <ul class="menu">
           <li><a href="#sobre-mim">Sobre mim</a></li>
           <li><a href="#formacao">Formação</a></li>
           <li><a href="#portfolio">Portfólio</a></li>
@@ -22,24 +22,24 @@
       </nav>
     </div>
   </header>
-  <div class="social-icons">
-    <a href="https://github.com/marlonricardo" target="_blank">
-      <img src="icone-github.png" alt="Github">
-    </a>
-    <a href="https://www.linkedin.com/in/marlonricardo-oliveira/" target="_blank">
-      <img src="icone-linkedin.png" alt="LinkedIn">
-    </a>
+  <div class="icones">
+    <nav>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/marlonricardo-oliveira/" target="_blank"><img src="img\img-linkedin.png" alt="Linkedin"></a></li>
+        <li><a href="https://github.com/marlonricardo" target="_blank"><img src="img\img-github.png" alt="Github"></a></li>
+      </ul>
+    </nav>
   </div>
   <!-- Seção Sobre mim -->
   <section id="sobre-mim">
     <div class="container">
-      <h2>Sobre mim</h2><br /><br />
+      <h2>Sobre mim</h2><br>
       <div class="container-img">
         <div class="image-wrapper">
-          <img src="foto-perfil.jpeg" alt="Foto de Perfil">
-        </div>        
+          <img src="img/foto-perfil.jpeg" alt="Foto de Perfil">
+        </div>
         <p>
-          Olá! Me chamo Marlon Ricardo e tenho 31 anos de idade. Sou apaixonado por tecnologia e programação, e estou sempre ansioso para aprender e me aperfeiçoar. Desde que me lembro, atraído pelo mundo da informática, mergulhei na emocionante jornada da programação. Cada linha de código é uma oportunidade de criar algo novo e funcional, e isso me enche de entusiasmo, especialmente quando se trata de Java, a linguagem que mais me conecta.
+          Olá! Sou apaixonado por tecnologia e programação, e estou sempre ansioso para aprender e me aperfeiçoar. Desde que me lembro, atraído pelo mundo da informática, mergulhei na emocionante jornada da programação. Cada linha de código é uma oportunidade de criar algo novo e funcional, e isso me enche de entusiasmo, especialmente quando se trata de Java, a linguagem que mais me conecta.
           <br><br>
           Nos meus momentos de folga, sou um devorador voraz de conhecimento. Seja através de livros, cursos online ou artigos técnicos, estou sempre buscando me manter atualizado sobre as últimas tendências em tecnologia e programação. Compreendo que o campo está sempre mudando, e estou determinado a permanecer à frente nesse cenário em constante evolução.
           <br><br>
@@ -54,22 +54,22 @@
   <!-- Seção Formação -->
   <section id="formacao">
     <div class="container">
-      <h2>Formação</h2><br /><br />
+      <h2>Formação</h2><br><br>
       <ul>
         <li>
-          <span class="bold-text">Graduação</span>
+          <strong>Graduação</strong>
           <p>
-            Análise e Desenvolvimento de Sistemas | <span class="bold-text">UNINTER</span><br />
+            Análise e Desenvolvimento de Sistemas | <b>UNINTER</b><br>
             Término: Outubro/2024
           </p>
           <p>
-            Gestão de TI | <span class="bold-text">UNIP</span><br /><br />
+            Gestão de TI | <b>UNIP</b><br>
             Término: Setembro/2023
           </p>
         </li>
-        <br /><br />
+        <br><br>
         <li>
-          <span class="bold-text">Cursos extracurriculares</span>
+          <strong>Cursos extracurriculares</strong>
           <ul class="lista-cursosExtracurriculares">
             <li>Java Insider - Softblue</li>
             <li>Project Management - Google</li>
@@ -85,13 +85,12 @@
   <!-- Seção Portfólio -->
   <section id="portfolio">
     <div class="container">
-      <h2>Portfólio</h2><br /><br />
+      <h2>Portfólio</h2><br><br>
       <ul>
         <li>
           <a href="https://github.com/marlonricardo/cofrinho-java">Cofrinho de Moedas</a>
           <p>O trabalho consiste em implementar um pequeno sistema que emula um "Cofrinho
-              de moedas" em Java.
-          </p>
+de moedas" em Java.</p>
         </li>
       </ul>
     </div>
@@ -100,7 +99,7 @@
   <!-- Seção Contato -->
   <section id="contato">
     <div class="container">
-      <h2>Contato</h2><br /><br />
+      <h2>Contato</h2><br><br>
       <form action="" method="post">
         <input type="text" name="nome" placeholder="Nome" required>
         <input type="email" name="email" id="email" placeholder="E-mail" required>
@@ -110,12 +109,13 @@
       </form>
     </div>
   </section>
-  
+
   <!-- Rodapé -->
   <footer>
     <div class="container">
       <p>MRO Webdesign - Todos os direitos reservados - 2023</p>
     </div>
   </footer>
+
 </body>
 </html>
